@@ -1,3 +1,8 @@
 123111
 这是合并的分支
+<<<<<<< HEAD
 这是master内容
+
+这是mergedemo的内容
+>>>>>>> mergedemo
+version1
