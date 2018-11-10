@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread"  parallel ="methods" thread-count="3">
+    <test name="demo1">
+        <classes >
+            <class name="com.course.testng.suite.basicsAnnotation"/>
+            <class name="com.course.testng.suite.MultiThreadonXml"/>
+        </classes>
+        <classes >
+            <class name="com.course.testng.suite.MultiThreadonXml"/>
+        </classes>
+    </test>
+
+    <test name="demo2">
+        <classes>
+            <class name="com.course.testng.suite.basicsAnnotation"/>
+        </classes>
+    </test>
+</suite>
